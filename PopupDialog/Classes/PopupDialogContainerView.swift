@@ -32,10 +32,6 @@ final public class PopupDialogContainerView: UIView {
 
     // MARK: - Appearance
 
-    override var prefersStatusBarHidden: Bool {
-      return true
-    }
-
     /// The background color of the popup dialog
     override public dynamic var backgroundColor: UIColor? {
         get { return container.backgroundColor }

@@ -27,6 +27,10 @@ import UIKit
 
 final public class PopupDialogDefaultViewController: UIViewController {
 
+    override var prefersStatusBarHidden: Bool {
+      return true
+    }
+
     public var standardView: PopupDialogDefaultView {
        return view as! PopupDialogDefaultView
     }
