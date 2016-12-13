@@ -29,6 +29,10 @@ import UIKit
 /// Creates a Popup dialog similar to UIAlertController
 final public class PopupDialog: UIViewController {
 
+    override public var prefersStatusBarHidden: Bool {
+      return true
+    }
+
     // MARK: Private / Internal
 
     /// First init flag
